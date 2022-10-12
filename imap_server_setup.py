@@ -28,6 +28,4 @@ if user_email_imap_setup.endswith("hocari.com"):
         # Make it return to the beginning.
 
 print(imap_server)
-#else:
-    #other_imap_server = input("Please enter your IMAP Server address: ")
-    #print(other_imap_server)
+
