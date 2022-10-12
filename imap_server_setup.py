@@ -10,8 +10,8 @@ if check_token == True:
     exit()
 
 
-user_email_imap_setup_test = "briac@mail.com"
-user_imap_setup_test = "imap.mail.com"
+user_email_imap_setup_test = "YOUR_EMAIL"
+user_imap_setup_test = "YOUR_IMAP"
 
 user_email_imap_setup = input("Please enter your email address: ")
 gmail_email_user_address_setup= user_email_imap_setup.endswith("gmail.com")
