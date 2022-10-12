@@ -2,8 +2,8 @@ import imaplib
 import pprint
 
 imap_host = 'mail.privateemail.com'
-imap_user = 'contact@hocari.com'
-imap_pass = 'Oddpaste90'
+imap_user = 'hello@hocari.com'
+imap_pass = '######################'
 
 # connect to host using SSL
 imap = imaplib.IMAP4_SSL(imap_host)
