@@ -2,8 +2,8 @@ import imaplib, getpass, re
 pattern_uid = re.compile(r'\d+ \(UID (?P<uid>\d+)\)')
 
 def connect(email):
-    imap = imaplib.IMAP4_SSL("mail.privateemail.com")
-    password = getpass.getpass("Oddpaste90")
+    imap = imaplib.IMAP4_SSL("YOUR_IMAP")
+    password = getpass.getpass("YOUR_PASSWORD")
     imap.login(email, password)
     return imap
 
